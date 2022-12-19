@@ -20,8 +20,8 @@
 
 ## comments テーブル
 
-| Column    | Type       | Options                        |
-| -------   | ---------- | ------------------------------ |
-| content   | text       | not null                       |
-| prototype | references | not null, foreign_key: true    |
-| user      | references | not null, foreign_key: true    |
+| Column    | Type       | Options                       |
+| -------   | ---------- | ------------------------------|
+| content   | text       | not null                      |
+| prototype | references | not null, foreign_key: true   |
+| user      | references | not null, foreign_key: true   |
