@@ -11,12 +11,12 @@
 
 ## prototypes テーブル
 
-| Column       | Type       | Options                        |
-| ------       | ---------- | ------------------------------ |
-| title        | string     | not null                       |
-| catch_copy   | text       | not null                       |
-| concept      | text       | not null                       |
-| user         | references | not null, foreign_key: true    |
+| Column       | Type       | Options                       |
+| ------       | ---------- | ------------------------------|
+| title        | string     | not null                      |
+| catch_copy   | text       | not null                      |
+| concept      | text       | not null                      |
+| user         | references | not null, foreign_key: true   |
 
 ## comments テーブル
 
